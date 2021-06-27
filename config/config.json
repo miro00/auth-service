@@ -1,0 +1,15 @@
+{
+  "development": {
+    "HOST": "192.168.1.153",
+    "USER": "miro",
+    "PASSWORD": "1234",
+    "DB": "auth",
+    "dialect": "mysql",
+    "pool": {
+      "max": 5,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  }
+}
